@@ -2,7 +2,8 @@
 
 在 ChatGPT 首页显示当前所处 IP 和 Location，使用 OpenAI 官方接口查看代理节点被 OpenAI 识别成的国家，如果不再支持的国家，则会进行提示以免被封号。
 
-下载地址：xxx
+下载地址：[Greasy Fork](https://greasyfork.org/zh-CN/scripts/464744-show-location-on-chatgpt)
+Github地址：https://github.com/Daotin/show-location-on-chatgpt
 
 ## 初衷
 
@@ -20,7 +21,7 @@
 - 基本上没有用到前端知识储备，只有提需求，然后将代码拷贝到 Tampermonkey
 - 提问的过程全程使用英文（为了提高回复速度和正确率），对话过程如下（https://shareg.pt/fGk2bom），到最后的时候出现了小插曲，ChatGPT忘记了之前的对话，所以我重新把它的回答喂给他，然后基于此继续提需求。
 - 原理很简单，就是根据 https://chat.openai.com/cdn-cgi/trace 接口返回所在国家，然后去匹配 OpanAI 官方宣布的支持的国家地区。
-- show-location-on-chatgpt 扩展总开发时间：1 小时
+- [show-location-on-chatgpt](https://greasyfork.org/zh-CN/scripts/464744-show-location-on-chatgpt) 扩展总开发时间：1 小时
 
 ## 成果截图
 
