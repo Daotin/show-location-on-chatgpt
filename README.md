@@ -22,7 +22,7 @@ Github地址：https://github.com/Daotin/show-location-on-chatgpt
 ## 开发经过
 
 - 基本上没有用到前端知识储备，只有提需求，然后将代码拷贝到 Tampermonkey
-- 提问的过程全程使用英文（为了提高回复速度和正确率），对话过程如下（https://shareg.pt/fGk2bom），到最后的时候出现了小插曲，ChatGPT忘记了之前的对话，所以我重新把它的回答喂给他，然后基于此继续提需求。
+- 提问的过程全程使用英文（为了提高回复速度和正确率），对话过程如下（https://shareg.pt/fGk2bom） ，到最后的时候出现了小插曲，ChatGPT忘记了之前的对话，所以我重新把它的回答喂给他，然后基于此继续提需求。
 - 原理很简单，就是根据 https://chat.openai.com/cdn-cgi/trace 接口返回所在国家，然后去匹配 OpanAI 官方宣布的支持的国家地区。
 - [show-location-on-chatgpt](https://greasyfork.org/zh-CN/scripts/464744-show-location-on-chatgpt) 扩展总开发时间：1 小时
 
